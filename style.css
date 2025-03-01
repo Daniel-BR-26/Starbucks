@@ -28,7 +28,7 @@ section image{
     width: 50%;
 }
 
-a{
+nav a{
     color: black;
     text-decoration: none;
 }
@@ -50,7 +50,7 @@ a{
 
 }
 
-a:hover{
+nav a:hover{
     border-bottom: 6px solid #00754a;
     color: #00754a;
 }
@@ -98,11 +98,94 @@ section img{
 }
 
 #cafe{
-background-color: #cbe390;
+    background-color: #cbe390;
+    color: #1e3932;
 }
 
+#paquete{
+    background-color:#f6e1a5;
+    color:#154f83;
+}
 
+#persona{
+    background-color:#1e3932;
+    color: aliceblue;
+}
 
+#vasos{
+    background-color:#474a6f;
+    color: aliceblue;
+}
+
+ul{
+    list-style: none;
+    padding: 0px;
+}
+
+footer{
+    background-color: gray;
+    padding: 20px 0px;
+    color: white;
+    text-align: center;
+    box-shadow: #212121;
+}
+
+.containefooter{
+    width: 100%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.folinks{
+    display: flex;
+    width: 100%;
+    margin-bottom: 20px;
+    justify-content: flex-start;
+}
+
+.redes{
+    display: flex;
+    gap: 15px;
+    width: 100%;
+    justify-content: center;
+    margin-bottom: 20px;
+    padding-top: 40px;
+    border-top: 1px solid rgb(224, 224, 224);
+}
+
+.redes a{
+    text-decoration: none;
+    background-color: white;
+    width: 40px;
+    height: 40px;
+}
+
+#facebook{
+    background-color: transparent;
+    align-items: center;
+    background-image: url(./Asseps/Facebook.png);
+    background-size: cover;
+}
+
+.foenlaces{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: center;
+    gap: 15px;
+}
+
+.containefooter a{
+    text-decoration: none;
+    color: white;
+}
+
+.columna{
+    line-height: 40px;
+    margin: 0px 20px;
+}
 
 
 /* Clses del ejemplo de position
